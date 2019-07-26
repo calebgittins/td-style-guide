@@ -234,23 +234,6 @@
         <div class="tdsg-section tdsg-section--elements" id="elements" data-title="Elements">
             <div class="tdsg-wrap">
                 <h2 class="tdsg-section__heading">Elements</h2>
-                <h3 class="tdsg-section__label">Scroll Cue</h3>
-                <div class="tdsg-grid">
-                    <div class="tdsg-grid__item tdsg-grid__item--half">
-                        <div class="block bg--primary is-dark">
-                            <?php td_display_scroll_cue(); ?>
-                        </div>
-                    </div>
-                    <div class="tdsg-grid__item tdsg-grid__item--half">
-                        <div class="block bg--primary is-dark">
-                            <?php td_display_scroll_cue('up'); ?>
-                        </div>
-                    </div>
-                    <div class="tdsg-grid__item tdsg-grid__item--half">
-                        <?php td_display_scroll_cue('double'); ?>
-                    </div>
-                </div>
-                <div class="space"></div>
             </div>
         </div>
         <div class="tdsg-section" id="colours" data-title="Colours">
