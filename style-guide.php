@@ -122,14 +122,6 @@
                     <?php wp_nav_menu( $args ); ?>
                 </div>
                 <div class="space"></div>
-                <h3 class="tdsg-section__label">tdsg-grid Navigation <code>.nav--tdsg-grid</code></h3>
-                <?php $args = array(
-					'container'      => 'false',
-				    'menu_class'     => 'nav nav--tdsg-grid',
-				    'theme_location' => 'menu-footer-primary',
-				); ?>
-                <?php wp_nav_menu( $args ); ?>
-                <div class="space"></div>
                 <h3 class="tdsg-section__label">Hamburger <code>.hamburger</code></h3>
                 <div class="tdsg-grid">
                     <div class="tdsg-grid__item tdsg-grid__item--half">
@@ -262,6 +254,8 @@
         				<div class="tdsg-palette__item bg--error"></div>
         			</li>
         		</ul>
+                <h2 class="tdsg-section__heading">Gradients</h2>
+                
         	</div>
         </div>
     </div><!-- /style-guide-body -->
