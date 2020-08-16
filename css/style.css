@@ -8,28 +8,6 @@
 }
 
 /*------------------------------------*\
-    $LAYOUT
-\*------------------------------------*/
-
-.tdsg-wrap {
-	position: relative;
-	margin: 0 auto;
-	width: 90%;
-}
-
-@media all and (min-width: 1400px) {
-	.tdsg-wrap {
-		max-width: 1200px;
-	}
-}
-
-@media all and (min-width: 1600px) {
-	.tdsg-wrap {
-		max-width: 1400px;
-	}
-}
-
-/*------------------------------------*\
     $HEADER
 \*------------------------------------*/
 
@@ -467,10 +445,9 @@ body a.tdsg__header__link:hover {
     $PALETTE
 \*------------------------------------*/
 
-/*.tdsg-palette { margin-bottom: 12px; }
+.tdsg-palette { margin-bottom: 12px; }
 
 .tdsg-palette .tdsg-grid { margin-left: -20px; }
-
 .tdsg-palette .tdsg-grid__item {
 	padding-left: 20px;
 	padding-bottom: 20px;
@@ -487,7 +464,7 @@ body a.tdsg__header__link:hover {
 	height: 0;
 	padding-bottom: 100%;
 	margin-bottom: 16px;
-}*/
+}
 
 /*------------------------------------*\
     $BUTTON
@@ -652,13 +629,15 @@ a.tdsg__button:visited {
 	text-align: center;
 	color: #333;
 	padding-top: 1em;
-	font-size: 14px;
-	line-height: 1em;
-	text-transform: uppercase;
 }
 
-.is-dark .tdsg-palette__item {
-	border: 1px solid #fff;
+/*------------------------------------*\
+    $ICON
+\*------------------------------------*/
+
+.tdsg-list--icon {
+	display: flex;
+	justify-content: space-between;
 }
 
 /*------------------------------------*\
@@ -679,59 +658,6 @@ a.tdsg__button:visited {
 	color: #888;
 }
 
-/*------------------------------------*\
-    $CSS
-\*------------------------------------*/
 
-.tdsg-css {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 12px;
-	line-height: 1em;
-	margin-bottom: 2em;
-	background-color: #eee;
-	padding: 1em;
-}
 
-.is-dark .tdsg-css {
-	background-color: #fff;
-	color: #333;
-}
 
-/*------------------------------------*\
-    $GRID LINES
-\*------------------------------------*/
-
-.style-guide-grid {
-	position: fixed;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	display: flex;
-	justify-content: center;
-	display: none;
-}
-
-.style-guide-grid:before {
-	content: '';
-	width: 1200px;
-	height: 100vh;
-	border: solid #ddd;
-	border-width: 0 1px;
-	background-image: linear-gradient(90deg, #dddddd 0.50%, #ffffff 0.50%, #ffffff 50%, #dddddd 50%, #dddddd 50.50%, #ffffff 50.50%, #ffffff 100%);
-	background-size: 200px 200px;
-	background-repeat: repeat;
-}
-/*
-.style-guide-grid:after {
-	content: '';
-	width: 1px;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	background-color: #ddd;
-}
-*/

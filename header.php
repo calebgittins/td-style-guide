@@ -27,7 +27,7 @@
 		</div>
 		<ul>
 			<li>
-				<div class="tdsg__toggle" data-toggle="dark">
+				<div class="tdsg__toggle">
 					<div class="tdsg__toggle__control"></div>
 					<div class="tdsg__toggle__label">Dark Mode</div>
 				</div>

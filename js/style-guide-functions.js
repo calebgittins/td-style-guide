@@ -6,7 +6,7 @@
 
     $('.tdsg__toggle').click(function() {
         $(this).toggleClass('tdsg__toggle--active');
-        $('.style-guide-body').toggleClass('bg--primary is-dark');
+        $('.style-guide-body').toggleClass('bg--default is-dark');
     });
 
     // Toggle navigation
@@ -57,42 +57,6 @@
         menuItems
             .parent().removeClass("is-active")
             .end().filter("[href='#" + id + "']").parent().addClass("is-active");
-    })
-
-    // Get hex colours of elements
-
-    $.cssHooks.backgroundColor = {
-        get: function(elem) {
-            if (elem.currentStyle)
-                var bg = elem.currentStyle["backgroundColor"];
-            else if (window.getComputedStyle)
-                var bg = document.defaultView.getComputedStyle(elem,
-                    null).getPropertyValue("background-color");
-            if (bg.search("rgb") == -1)
-                return bg;
-            else {
-                bg = bg.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-                function hex(x) {
-                    return ("0" + parseInt(x).toString(16)).slice(-2);
-                }
-                return "#" + hex(bg[1]) + hex(bg[2]) + hex(bg[3]);
-            }
-        }
-    }
-
-    $('.tdsg-palette__item').each(function(){
-        var colour = $(this).css('backgroundColor');
-        $(this).append('<span>' + colour + '</span>');
-    });
-
-    // Get font size / line height
-
-    $('.js-tdsg-typography').each(function(){
-        var fontSize      = parseInt($(this).css('font-size'));
-        var lineHeight    = parseInt($(this).css('line-height'));
-        var marginBottom  = parseInt($(this).css('margin-bottom'));
-        var letterSpacing = $(this).css('letter-spacing');
-        $(this).after('<code class="tdsg-css">Font Size: ' + fontSize + 'px / Line Height: ' + lineHeight + 'px / Margin Bottom: ' + marginBottom + 'px / Letter Spacing: ' + letterSpacing + '</code>');
     });
 
 })(jQuery);
