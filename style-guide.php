@@ -67,6 +67,58 @@
                         </div>
                     </div>
                 </div>       
+                <div class="space"></div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Table Header 1</th>
+                            <th>Table Header 2</th>
+                            <th>Table Header 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Table Data 1</td>
+                            <td>Table Data 2</td>
+                            <td>Table Data 3</td>
+                            <td>Table Data 4</td>
+                            <td>Table Data 5</td>
+                            <td>Table Data 6</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data 1</td>
+                            <td>Table Data 2</td>
+                            <td>Table Data 3</td>
+                            <td>Table Data 4</td>
+                            <td>Table Data 5</td>
+                            <td>Table Data 6</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data 1</td>
+                            <td>Table Data 2</td>
+                            <td>Table Data 3</td>
+                            <td>Table Data 4</td>
+                            <td>Table Data 5</td>
+                            <td>Table Data 6</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data 1</td>
+                            <td>Table Data 2</td>
+                            <td>Table Data 3</td>
+                            <td>Table Data 4</td>
+                            <td>Table Data 5</td>
+                            <td>Table Data 6</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data 1</td>
+                            <td>Table Data 2</td>
+                            <td>Table Data 3</td>
+                            <td>Table Data 4</td>
+                            <td>Table Data 5</td>
+                            <td>Table Data 6</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <!-- /TYPOGRAPHY -->
