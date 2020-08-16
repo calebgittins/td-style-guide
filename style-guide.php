@@ -31,19 +31,16 @@
                             <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
                         </div>
                         <div class="space"></div>
-                        <h3 class="tdsg-section__label">Misc</h3>
+                        <h3 class="tdsg-section__label">Miscellaneous Typographic Styles</h3>
                         2,500m<sup>2</sup><br>
                         H<sub>2</sub>0
+                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magni, quaerat dolorem autem deserunt voluptatibus porro, ipsum nobis distinctio numquam, explicabo reprehenderit vitae quam. Quos aspernatur sapiente praesentium blanditiis amet?</small>
 	                </div>
 	            </div>
 	            <div class="space"></div>
                 <h3 class="tdsg-section__label">Blockquote <code>blockquote</code></h3>
                 <div class="blockquote">
                     <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</blockquote>
-                </div>
-                <h3 class="tdsg-section__label">Blockquote with highlight <code>.has-highlight</code></h3>
-                <div class="blockquote has-highlight">
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec rhoncus enim eu aliquam viverra.</strong> Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</blockquote>
                 </div>
                 <div class="space"></div>
                 <div class="wysiwyg">
@@ -70,11 +67,6 @@
                         </div>
                     </div>
                 </div>       
-                <div class="space"></div>         
-                <h3 class="tdsg-section__label">Messages</h3>
-                <div class="job-manager-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Text link in message</a></div>
-                <div class="job-manager-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Text link in message</a></div>
-                <div class="job-manager-error">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Text link in message</a></div>
             </div>
         </div>
         <!-- /TYPOGRAPHY -->
@@ -116,13 +108,8 @@
 					'container'      => 'false',
 					'menu_class'     => 'nav nav--primary',
 					'theme_location' => 'menu-header',
-					'link_before'    => '<span>',
-					'link_after'     => '</span>'
 				); ?>
-
-                <div class="bg--default" style="padding: 100px;">
-                    <?php wp_nav_menu( $args ); ?>    
-                </div>                
+                <?php wp_nav_menu( $args ); ?>    
                 
                 <div class="space"></div>
                 
@@ -311,11 +298,6 @@
                 
                 <h3 class="tdsg-section__label">Search Form</h3>
                 <?php echo get_search_form(); ?>
-                <div class="space"></div>
-                <h3 class="tdsg-section__label">Search Form - Small</h3>
-                <div class="search--small">
-                    <?php echo get_search_form(); ?>
-                </div>
 
                 </div>
             </div>
