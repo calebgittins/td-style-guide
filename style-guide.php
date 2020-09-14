@@ -19,10 +19,6 @@
                         <h5>Heading 5</h5>
                         <h3 class="tdsg-section__label">Heading 6 <code>h6</code></h3>
                         <h6>Heading 6</h6>
-                        <h3 class="tdsg-section__label">Subheading <code>.subheading</code></h3>
-                        <h6 class="subheading">Sub heading text</h6>
-                        <h3 class="tdsg-section__label">Heading with line <code>.heading--line</code></h3>
-                        <h2 class="heading--line">Heading 2</h2>
                     </div>
                     <div class="grid__item grid__item--half">
                         <h3 class="tdsg-section__label">Body</h3>
@@ -31,10 +27,9 @@
                             <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
                         </div>
                         <div class="space"></div>
-                        <h3 class="tdsg-section__label">Miscellaneous Typographic Styles</h3>
+                        <h3 class="tdsg-section__label">Misc</h3>
                         2,500m<sup>2</sup><br>
                         H<sub>2</sub>0
-                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magni, quaerat dolorem autem deserunt voluptatibus porro, ipsum nobis distinctio numquam, explicabo reprehenderit vitae quam. Quos aspernatur sapiente praesentium blanditiis amet?</small>
 	                </div>
 	            </div>
 	            <div class="space"></div>
@@ -66,59 +61,7 @@
                             </ol>
                         </div>
                     </div>
-                </div>       
-                <div class="space"></div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Table Header 1</th>
-                            <th>Table Header 2</th>
-                            <th>Table Header 3</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Table Data 1</td>
-                            <td>Table Data 2</td>
-                            <td>Table Data 3</td>
-                            <td>Table Data 4</td>
-                            <td>Table Data 5</td>
-                            <td>Table Data 6</td>
-                        </tr>
-                        <tr>
-                            <td>Table Data 1</td>
-                            <td>Table Data 2</td>
-                            <td>Table Data 3</td>
-                            <td>Table Data 4</td>
-                            <td>Table Data 5</td>
-                            <td>Table Data 6</td>
-                        </tr>
-                        <tr>
-                            <td>Table Data 1</td>
-                            <td>Table Data 2</td>
-                            <td>Table Data 3</td>
-                            <td>Table Data 4</td>
-                            <td>Table Data 5</td>
-                            <td>Table Data 6</td>
-                        </tr>
-                        <tr>
-                            <td>Table Data 1</td>
-                            <td>Table Data 2</td>
-                            <td>Table Data 3</td>
-                            <td>Table Data 4</td>
-                            <td>Table Data 5</td>
-                            <td>Table Data 6</td>
-                        </tr>
-                        <tr>
-                            <td>Table Data 1</td>
-                            <td>Table Data 2</td>
-                            <td>Table Data 3</td>
-                            <td>Table Data 4</td>
-                            <td>Table Data 5</td>
-                            <td>Table Data 6</td>
-                        </tr>
-                    </tbody>
-                </table>
+                </div>                
             </div>
         </div>
         <!-- /TYPOGRAPHY -->
@@ -161,8 +104,9 @@
 					'menu_class'     => 'nav nav--primary',
 					'theme_location' => 'menu-header',
 				); ?>
-                <?php wp_nav_menu( $args ); ?>    
                 
+                <?php wp_nav_menu( $args ); ?>    
+                                
                 <div class="space"></div>
                 
                 <h3 class="tdsg-section__label">Secondary Navigation <code>.nav--secondary</code></h3>                
@@ -171,10 +115,9 @@
 				    'menu_class'     => 'nav nav--secondary',
 				    'theme_location' => 'menu-footer'
 				); ?>
-                <div class="footer__secondary">
-                    <?php wp_nav_menu( $args ); ?>
-                </div>
                 
+                <?php wp_nav_menu( $args ); ?>
+                                
                 <div class="space"></div>
                 
                 <h3 class="tdsg-section__label">Hamburger <code>.hamburger</code></h3>
@@ -234,7 +177,8 @@
                     </div>
                 </div>                                   
 
-                <div class="space"></div>                
+                <div class="space"></div>              
+
                 <h3 class="tdsg-section__label">Textarea</h3>
 
                 
@@ -389,14 +333,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="space"></div>
-                
-                <h3 class="tdsg-section__label">Offscreen Panel</h3>
-
-                <div class="bg--default is-dark" style="width: 854px; padding: 100px;">
-                    <?php echo do_shortcode('[gravityforms id="1" title="false" description="false" ajax="true"]'); ?>
-                </div>
                 
                 <div class="space"></div>
                 
@@ -424,6 +360,116 @@
                     echo '<img src="' . $og_image . '" />'; 
                 ?>
 
+            </div>
+        </div>
+        <div class="tdsg-section" id="spacing" data-title="Spacing and Layout">
+            <style>
+                #spacing .grid-spacer {
+                    background-color: #eee;
+                    padding: 100px 0;
+                    text-align: center;
+                }
+                #spacing .spacer {
+                    background-color: #eee;
+                    /*height: 100px;*/
+                    margin-bottom: 24px;
+                }
+            </style>
+            <div class="wrap">
+                <h2 class="tdsg-section__heading">Spacing</h2>
+                <div class="wysiwyg">
+                    <ul>
+                        <li>Spacing can be applied as margin, padding or height using the variables in <strong>sass/spacing.scss</strong> eg <code>padding-bottom: $space-s;</code></li>
+                        <li>You can also use a spacing element eg <code>&lt;div class="spacer spacer--s"&gt;&lt;/div&gt;</code></li>
+                    </ul>
+                </div>
+                <h3 class="tdsg-section__label">Small <code>$space-s</code></h3>
+                <div class="spacer spacer--s"></div>
+                <h3 class="tdsg-section__label">Medium <code>$space-m</code></h3>
+                <div class="spacer spacer--m"></div>
+                <h3 class="tdsg-section__label">Large <code>$space-l</code></h3>
+                <div class="spacer spacer--l"></div>
+            </div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="wrap">
+                <h2 class="tdsg-section__heading">Wrap</h2>
+                <h3 class="tdsg-section__label">Small Wrap <code>.wrap.wrap--small</code></h3>
+            </div>
+
+            <div class="wrap wrap--small" style="background: #eee; height: 200px"></div>
+
+            <div class="space"></div>
+
+            <div class="wrap">
+                
+                <h3 class="tdsg-section__label">Default Wrap <code>.wrap</code></h3>
+            </div>
+
+            <div class="wrap" style="background: #eee; height: 200px"></div>
+
+            
+
+            <div class="space"></div>
+
+            <div class="wrap">
+            <h3 class="tdsg-section__label">Large Wrap <code>.wrap.wrap--large</code></h3>
+            </div>
+
+            <div class="wrap wrap--large" style="background: #eee; height: 200px"></div>
+
+            <div class="space"></div>
+            <div class="space"></div>
+
+            <div class="wrap">
+                <h2 class="tdsg-section__heading">Grid</h2>
+                <div class="wysiwyg">
+                <ul>
+                    <li>Columns are set up in <strong>sass/helper.scss</strong></li>
+                    <li>There's a mixin <strong>@include grid-spacing(24px,24px)</strong> to adjust left and bottom padding</li>
+                </ul>
+                </div>
+                
+                
+                <h3 class="tdsg-section__label">Two Column <code>.grid__item.grid__item--half</code></h3>                
+                <div class="grid">
+                    <div class="grid__item grid__item--half"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--half"><div class="grid-spacer"></div></div>
+                </div>
+                <div class="space"></div>
+                <h3 class="tdsg-section__label">Three Column <code>.grid__item.grid__item--third</code></h3>                
+                <div class="grid">
+                    <div class="grid__item grid__item--third"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--third"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--third"><div class="grid-spacer"></div></div>
+                </div>
+                <div class="space"></div>
+                <h3 class="tdsg-section__label">Four Column <code>.grid__item.grid__item--fourth</code></h3>                
+                <div class="grid">
+                    <div class="grid__item grid__item--fourth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fourth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fourth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fourth"><div class="grid-spacer"></div></div>
+                </div>
+                <div class="space"></div>
+                <h3 class="tdsg-section__label">Five Column <code>.grid__item.grid__item--fifth</code></h3>                
+                <div class="grid">
+                    <div class="grid__item grid__item--fifth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fifth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fifth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fifth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--fifth"><div class="grid-spacer"></div></div>
+                </div>
+                <div class="space"></div>
+                <h3 class="tdsg-section__label">Six Column <code>.grid__item.grid__item--sixth</code></h3>                
+                <div class="grid">
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                    <div class="grid__item grid__item--sixth"><div class="grid-spacer"></div></div>
+                </div>
             </div>
         </div>
         <div class="tdsg-section" id="colours" data-title="Colours">
