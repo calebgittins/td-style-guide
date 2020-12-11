@@ -23,7 +23,7 @@
 			<div class="tdsg__hamburger__line"></div>
 		</div>
 		<div class="tdsg__logo">
-			<h1 class="tdsg__logo__heading"><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/favicon@2x.png"><?php echo get_bloginfo( 'name' ); ?> <span>Website Style Guide</span></h1>
+			<h1 class="tdsg__logo__heading"><img src="<?php echo get_stylesheet_directory_uri();?>/images/favicon/favicon.png"><?php echo get_bloginfo( 'name' ); ?> <span>Website Style Guide</span></h1>
 		</div>
 		<ul>
 			<li>

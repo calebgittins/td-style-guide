@@ -5,40 +5,49 @@
         <div class="tdsg-section tdsg-section--typography" id="typography" data-title="Typography">
             <div class="wrap">
                 <h2 class="tdsg-section__heading">Typography</h2>
-                <div class="grid">
-                    <div class="grid__item grid__item--half">
-                        <h3 class="tdsg-section__label">Heading 1 <code>h1</code></h3>
-                        <h1>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                        <h3 class="tdsg-section__label">Heading 2 <code>h2</code></h3>
-                        <h2>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                        <h3 class="tdsg-section__label">Heading 3 <code>h3</code></h3>
-                        <h3>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                        <h3 class="tdsg-section__label">Heading 4 <code>h4</code></h3>
-                        <h4>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                        <h3 class="tdsg-section__label">Heading 5 <code>h5</code></h3>
-                        <h5>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                        <h3 class="tdsg-section__label">Heading 6 <code>h6</code></h3>
-                        <h6>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <h3 class="tdsg-section__label">Heading 1 <code>h1</code></h3>
+                    <h1>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Heading 2 <code>h2</code></h3>
+                    <h2>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Heading 3 <code>h3</code></h3>
+                    <h3>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Heading 4 <code>h4</code></h3>
+                    <h4>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Heading 5 <code>h5</code></h3>
+                    <h5>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Heading 6 <code>h6</code></h3>
+                    <h6>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+
+                    <div class="space"></div>
+                    
+                    <h3 class="tdsg-section__label">Body</h3>
+                    <div class="wysiwyg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec rhoncus enim eu</strong> aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                        <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
                     </div>
-                    <div class="grid__item grid__item--half">
-                        <h3 class="tdsg-section__label">Body</h3>
-                        <div class="wysiwyg">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec rhoncus enim eu</strong> aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
-                            <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
-                        </div>
-                        <div class="space"></div>
-                        <h3 class="tdsg-section__label">Misc</h3>
-                        2,500m<sup>2</sup><br>
-                        H<sub>2</sub>0
-	                </div>
-	            </div>
-	            <div class="space"></div>
+                    <div class="space"></div>
+                     <h3 class="tdsg-section__label">Body - Small</h3>
+                    <div class="body--small wysiwyg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec rhoncus enim eu</strong> aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
+                        <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
+                    </div>
+                    <div class="space"></div>
+                    <h3 class="tdsg-section__label">Misc</h3>
+                    2,500m<sup>2</sup><br>
+                    H<sub>2</sub>0
+
+                <div class="space"></div>
                 <h3 class="tdsg-section__label">Blockquote <code>blockquote</code></h3>
                 <div class="blockquote">
                     <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</blockquote>
@@ -51,7 +60,8 @@
                             <ul>
                                 <li>Lorem ipsum dolor sit amet</li>
                                 <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor sit amet
+                                <li>
+                                    Lorem ipsum dolor sit amet
                                     <ul>
                                         <li>Lorem ipsum dolor sit amet</li>
                                         <li>Lorem ipsum dolor sit amet</li>
@@ -69,10 +79,9 @@
                             <ol>
                                 <li>Lorem ipsum dolor sit amet</li>
                                 <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor sit amet
+                                <li>
+                                    Lorem ipsum dolor sit amet
                                     <ol>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
                                         <li>Lorem ipsum dolor sit amet</li>
                                         <li>Lorem ipsum dolor sit amet</li>
                                         <li>Lorem ipsum dolor sit amet</li>
@@ -83,7 +92,71 @@
                             </ol>
                         </div>
                     </div>
-                </div>                
+                </div>      
+
+                <div class="space"></div>
+                
+                <h3 class="tdsg-section__label">Table</h3>
+                <div class="wysiwyg">
+                    <table>
+                        <thead>
+                            <th>Table header 1</th>
+                            <th>Table header 2</th>
+                            <th>Table header 3</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Table data 1</td>
+                                <td>Table data 2</td>
+                                <td>Table data 3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="space"></div>
+
+                <h3 class="tdsg-section__label">Message - Default <code>.message</code></h3>
+                <div class="message">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </div>
+
+                <h3 class="tdsg-section__label">Message - Success <code>.message.message--success</code></h3>
+                <div class="message message--success">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </div>
+
+                <h3 class="tdsg-section__label">Message - Error <code>.message.message--error</code></h3>
+                <div class="message message--error">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </div>
+
+
             </div>
         </div>
         <!-- /TYPOGRAPHY -->
@@ -122,10 +195,10 @@
                 
                 <h3 class="tdsg-section__label">Primary Navigation <code>.nav--primary</code></h3>
                 <?php $args = array(
-					'container'      => 'false',
-					'menu_class'     => 'nav nav--primary',
-					'theme_location' => 'menu-header',
-				); ?>
+                    'container'      => 'false',
+                    'menu_class'     => 'nav nav--primary',
+                    'theme_location' => 'menu-header',
+                ); ?>
                 
                 <?php wp_nav_menu( $args ); ?>    
                                 
@@ -133,10 +206,10 @@
                 
                 <h3 class="tdsg-section__label">Secondary Navigation <code>.nav--secondary</code></h3>                
                 <?php $args = array(
-					'container'      => 'false',
-				    'menu_class'     => 'nav nav--secondary',
-				    'theme_location' => 'menu-footer'
-				); ?>
+                    'container'      => 'false',
+                    'menu_class'     => 'nav nav--secondary',
+                    'theme_location' => 'menu-footer'
+                ); ?>
                 
                 <?php wp_nav_menu( $args ); ?>
                                 
@@ -244,51 +317,166 @@
                 </form>
          
                 
+                <div class="space"></div>                
+
+                <div class="grid">
+                    <div class="grid__item grid__item--half">
+                        <h3 class="tdsg-section__label">Checkbox</h3>
+                        <form class="hidden_label">
+                            <label for="" class="gfield_label">Field Label</label>
+                            <div class="ginput_container ginput_container_checkbox">
+                                <ul class="gfield_checkbox" id="input_1_28">
+                                    <li class="gchoice_1_28_1">
+                                        <input name="input_28.1" type="checkbox" value="First Choice" id="choice_1_28_1">
+                                        <label for="choice_1_28_1" id="label_1_28_1"><span class="custom-input custom-input--checkbox"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_2">
+                                        <input name="input_28.2" type="checkbox" value="Second Choice" id="choice_1_28_2">
+                                        <label for="choice_1_28_2" id="label_1_28_2"><span class="custom-input custom-input--checkbox"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_3">
+                                        <input name="input_28.3" type="checkbox" value="Third Choice" id="choice_1_28_3">
+                                        <label for="choice_1_28_3" id="label_1_28_3"><span class="custom-input custom-input--checkbox"></span>Third Choice</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="grid__item grid__item--half">
+                        <h3 class="tdsg-section__label">Checkbox - inline</h3>
+                        <form class="hidden_label">
+                            <label for="" class="gfield_label">Field Label</label>
+                            <div class="ginput_container ginput_container_checkbox">
+                                <ul class="gfield_checkbox gf_list_inline" id="input_1_28">
+                                    <li class="gchoice_1_28_1">
+                                        <input name="input_28.1" type="checkbox" value="First Choice" id="choice_1_28_1">
+                                        <label for="choice_1_28_1" id="label_1_28_1"><span class="custom-input custom-input--checkbox"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_2">
+                                        <input name="input_28.2" type="checkbox" value="Second Choice" id="choice_1_28_2">
+                                        <label for="choice_1_28_2" id="label_1_28_2"><span class="custom-input custom-input--checkbox"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_3">
+                                        <input name="input_28.3" type="checkbox" value="Third Choice" id="choice_1_28_3">
+                                        <label for="choice_1_28_3" id="label_1_28_3"><span class="custom-input custom-input--checkbox"></span>Third Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_1">
+                                        <input name="input_28.1" type="checkbox" value="First Choice" id="choice_1_28_1">
+                                        <label for="choice_1_28_1" id="label_1_28_1"><span class="custom-input custom-input--checkbox"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_2">
+                                        <input name="input_28.2" type="checkbox" value="Second Choice" id="choice_1_28_2">
+                                        <label for="choice_1_28_2" id="label_1_28_2"><span class="custom-input custom-input--checkbox"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_28_3">
+                                        <input name="input_28.3" type="checkbox" value="Third Choice" id="choice_1_28_3">
+                                        <label for="choice_1_28_3" id="label_1_28_3"><span class="custom-input custom-input--checkbox"></span>Third Choice</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>                
+
+                <div class="space"></div>
+                
+                <div class="grid">
+                    <div class="grid__item grid__item--half">
+                        <h3 class="tdsg-section__label">Radio Button</h3>
+                        <form class="hidden_label">
+                            <label for="" class="gfield_label">Field Label</label>
+                            <div class="ginput_container ginput_container_radio">
+                                <ul class="gfield_radio" id="input_1_30">
+                                    <li class="gchoice_1_30_0">
+                                        <input name="input_30" type="radio" value="First Choice" id="choice_1_30_0">
+                                        <label for="choice_1_30_0" id="label_1_30_0"><span class="custom-input custom-input--radio"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_1">
+                                        <input name="input_30" type="radio" value="Second Choice" id="choice_1_30_1">
+                                        <label for="choice_1_30_1" id="label_1_30_1"><span class="custom-input custom-input--radio"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_2">
+                                        <input name="input_30" type="radio" value="Third Choice" id="choice_1_30_2">
+                                        <label for="choice_1_30_2" id="label_1_30_2"><span class="custom-input custom-input--radio"></span>Third Choice</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="grid__item grid__item--half">
+                        <h3 class="tdsg-section__label">Radio Button - Inline</h3>
+                        <form class="hidden_label">
+                            <label for="" class="gfield_label">Field Label</label>
+                            <div class="ginput_container ginput_container_radio">
+                                <ul class="gfield_radio gf_list_inline" id="input_1_30">
+                                    <li class="gchoice_1_30_0">
+                                        <input name="input_30" type="radio" value="First Choice" id="choice_1_30_0">
+                                        <label for="choice_1_30_0" id="label_1_30_0"><span class="custom-input custom-input--radio"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_1">
+                                        <input name="input_30" type="radio" value="Second Choice" id="choice_1_30_1">
+                                        <label for="choice_1_30_1" id="label_1_30_1"><span class="custom-input custom-input--radio"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_2">
+                                        <input name="input_30" type="radio" value="Third Choice" id="choice_1_30_2">
+                                        <label for="choice_1_30_2" id="label_1_30_2"><span class="custom-input custom-input--radio"></span>Third Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_0">
+                                        <input name="input_30" type="radio" value="First Choice" id="choice_1_30_0">
+                                        <label for="choice_1_30_0" id="label_1_30_0"><span class="custom-input custom-input--radio"></span>First Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_1">
+                                        <input name="input_30" type="radio" value="Second Choice" id="choice_1_30_1">
+                                        <label for="choice_1_30_1" id="label_1_30_1"><span class="custom-input custom-input--radio"></span>Second Choice</label>
+                                    </li>
+                                    <li class="gchoice_1_30_2">
+                                        <input name="input_30" type="radio" value="Third Choice" id="choice_1_30_2">
+                                        <label for="choice_1_30_2" id="label_1_30_2"><span class="custom-input custom-input--radio"></span>Third Choice</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>                
+
                 <div class="space"></div>
 
-                <h3 class="tdsg-section__label">Checkbox</h3>
-                <form class="hidden_label">
-                    <label for="" class="gfield_label">Field Label</label>
-                    <div class="ginput_container ginput_container_checkbox">
-                        <ul class="gfield_checkbox" id="input_1_28">
-                            <li class="gchoice_1_28_1">
-                                <input name="input_28.1" type="checkbox" value="First Choice" id="choice_1_28_1">
-                                <label for="choice_1_28_1" id="label_1_28_1"><span class="custom-input custom-input--checkbox"></span>First Choice</label>
-                            </li>
-                            <li class="gchoice_1_28_2">
-                                <input name="input_28.2" type="checkbox" value="Second Choice" id="choice_1_28_2">
-                                <label for="choice_1_28_2" id="label_1_28_2"><span class="custom-input custom-input--checkbox"></span>Second Choice</label>
-                            </li>
-                            <li class="gchoice_1_28_3">
-                                <input name="input_28.3" type="checkbox" value="Third Choice" id="choice_1_28_3">
-                                <label for="choice_1_28_3" id="label_1_28_3"><span class="custom-input custom-input--checkbox"></span>Third Choice</label>
-                            </li>
-                        </ul>
+                <h3 class="tdsg-section__label">Datepicker</h3>
+
+                <form action="" class="hidden_label">
+                    <div id="field_1_7" class="field_sublabel_below field_description_below gfield_visibility_visible">
+                        <label class="gfield_label" for="input_1_7">Date</label>
+                        <div class="ginput_container ginput_container_date">
+                            <input name="input_7" id="input_1_7" type="text" value="" class="datepicker medium mdy datepicker_no_icon hasDatepicker" aria-describedby="input_1_7_date_format">
+                            <span id="input_1_7_date_format" class="screen-reader-text">Date Format: MM slash DD slash YYYY</span>
+                        </div>
+                        <input type="hidden" id="gforms_calendar_icon_input_1_7" class="gform_hidden" value="http://cityfinance.local/wp-content/plugins/gravityforms/images/calendar.png">
                     </div>
                 </form>
 
                 <div class="space"></div>
 
-                <h3 class="tdsg-section__label">Radio Button</h3>
-                <form class="hidden_label">
-                    <label for="" class="gfield_label">Field Label</label>
-                    <div class="ginput_container ginput_container_radio">
-                        <ul class="gfield_radio" id="input_1_30">
-                            <li class="gchoice_1_30_0">
-                                <input name="input_30" type="radio" value="First Choice" id="choice_1_30_0">
-                                <label for="choice_1_30_0" id="label_1_30_0"><span class="custom-input custom-input--radio"></span>First Choice</label>
-                            </li>
-                            <li class="gchoice_1_30_1">
-                                <input name="input_30" type="radio" value="Second Choice" id="choice_1_30_1">
-                                <label for="choice_1_30_1" id="label_1_30_1"><span class="custom-input custom-input--radio"></span>Second Choice</label>
-                            </li>
-                            <li class="gchoice_1_30_2">
-                                <input name="input_30" type="radio" value="Third Choice" id="choice_1_30_2">
-                                <label for="choice_1_30_2" id="label_1_30_2"><span class="custom-input custom-input--radio"></span>Third Choice</label>
-                            </li>
-                        </ul>
+                <h3 class="tdsg-section__label">File Upload</h3>
+
+                <div id="field_1_8" class="field_sublabel_below field_description_below gfield_visibility_visible hidden_label">
+                    <label class="gfield_label">File</label>
+                    <div class="ginput_container ginput_container_fileupload">
+                        <div id="gform_multifile_upload_1_8" data-settings="{&quot;runtimes&quot;:&quot;html5,flash,html4&quot;,&quot;browse_button&quot;:&quot;gform_browse_button_1_8&quot;,&quot;container&quot;:&quot;gform_multifile_upload_1_8&quot;,&quot;drop_element&quot;:&quot;gform_drag_drop_area_1_8&quot;,&quot;filelist&quot;:&quot;gform_preview_1_8&quot;,&quot;unique_names&quot;:true,&quot;file_data_name&quot;:&quot;file&quot;,&quot;url&quot;:&quot;http:\/\/cityfinance.local\/?gf_page=d3ff8bb67f81eff&quot;,&quot;flash_swf_url&quot;:&quot;http:\/\/cityfinance.local\/wp-includes\/js\/plupload\/plupload.flash.swf&quot;,&quot;silverlight_xap_url&quot;:&quot;http:\/\/cityfinance.local\/wp-includes\/js\/plupload\/plupload.silverlight.xap&quot;,&quot;filters&quot;:{&quot;mime_types&quot;:[{&quot;title&quot;:&quot;Allowed Files&quot;,&quot;extensions&quot;:&quot;*&quot;}],&quot;max_file_size&quot;:&quot;314572800b&quot;},&quot;multipart&quot;:true,&quot;urlstream_upload&quot;:false,&quot;multipart_params&quot;:{&quot;form_id&quot;:1,&quot;field_id&quot;:8},&quot;gf_vars&quot;:{&quot;max_files&quot;:0,&quot;message_id&quot;:&quot;gform_multifile_messages_1_8&quot;,&quot;disallowed_extensions&quot;:[&quot;php&quot;,&quot;asp&quot;,&quot;aspx&quot;,&quot;cmd&quot;,&quot;csh&quot;,&quot;bat&quot;,&quot;html&quot;,&quot;htm&quot;,&quot;hta&quot;,&quot;jar&quot;,&quot;exe&quot;,&quot;com&quot;,&quot;js&quot;,&quot;lnk&quot;,&quot;htaccess&quot;,&quot;phtml&quot;,&quot;ps1&quot;,&quot;ps2&quot;,&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;,&quot;py&quot;,&quot;rb&quot;,&quot;tmp&quot;]}}" class="gform_fileupload_multifile" style="position: relative;">
+                            <div id="gform_drag_drop_area_1_8" class="gform_drop_area" style="position: relative;">
+                                <span class="gform_drop_instructions">Drop files here or </span>
+                                <input id="gform_browse_button_1_8" type="button" value="Select files" class="button gform_button_select_files" aria-describedby="extensions_message_1_8" style="position: relative; z-index: 1;">
+                            </div>
+                            <div id="html5_1eovqno051bidq7g15sr1mmd1feo3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 6px; left: 141px; width: 88px; height: 18px; overflow: hidden; z-index: 0;">
+                                <input id="html5_1eovqno051bidq7g15sr1mmd1feo3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="">
+                            </div>
+                        </div>
+                        <span id="extensions_message_1_8" class="screen-reader-text">Accepted file types: jpg, gif, png, pdf.</span>
+                        <div class="validation_message">
+                            <ul id="gform_multifile_messages_1_8"></ul>
+                        </div>
                     </div>
-                </form>
+                    <div id="gform_preview_1_8"></div>
+                </div>
 
                 <div class="space"></div>
 
@@ -320,6 +508,55 @@
                 </div>
             </div>
         </div>
+
+        <div class="tdsg-section tdsg-section--elements" id="elements" data-title="Media">
+            <div class="wrap">
+
+                <h2 class="tdsg-section__heading">Media</h2>
+
+                <h3 class="tdsg-section__label">Image</h3>
+                <img src="https://via.placeholder.com/640x480" alt="">
+                
+                <div class="space"></div>
+                
+                <h3 class="tdsg-section__label">Image - with caption</h3>
+                
+                <div id="attachment_335" class="wp-caption alignnone">
+                    <img aria-describedby="caption-attachment-335" class="size-full wp-image-335" src="https://via.placeholder.com/640x480" alt=""><p id="caption-attachment-335" class="wp-caption-text">Testing image caption</p>
+                </div>
+                
+                <div class="space"></div>
+
+                <h3 class="tdsg-section__label">Image - center aligned</h3>
+                <div class="wysiwyg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                    <img src="https://via.placeholder.com/640x480" alt="" class="aligncenter">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                </div>
+
+                <div class="space"></div>
+
+                <h3 class="tdsg-section__label">Image - left aligned</h3>
+                <div class="wysiwyg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                    <img src="https://via.placeholder.com/480x320" alt="" class="alignleft">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                </div>
+                
+                <div class="space"></div>
+
+                <h3 class="tdsg-section__label">Image - right aligned</h3>
+                <div class="wysiwyg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                    <img src="https://via.placeholder.com/480x320" alt="" class="alignright">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vero reprehenderit ab non, iusto voluptatum distinctio consequuntur obcaecati recusandae minima inventore, laboriosam assumenda iure sit. Praesentium sed ad sunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quo dolorem dolorum corporis facere, impedit laborum consequatur nisi, reprehenderit eius quaerat laboriosam qui placeat culpa, dolores sapiente modi sed aperiam?</p>
+                </div>
+
+            </div>
+        </div>
+
         <div class="tdsg-section tdsg-section--elements" id="elements" data-title="Elements">
             <div class="wrap">
                 <h2 class="tdsg-section__heading">Elements</h2>
@@ -361,16 +598,9 @@
                 <h3 class="tdsg-section__label">Favicon</h3>
                 
                 <ul class="tdsg-list--icon">
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/favicon.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/favicon@2x.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-57x57.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-72x72.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-76x76.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-114x114.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-120x120.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-144x144.png" /></li>
-                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/apple/apple-touch-icon-152x152.png" /></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/favicon/favicon.png" /></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/favicon/icon.png" /></li>
+                    <li><img src="<?php echo get_stylesheet_directory_uri();?>/images/favicon/icon_largetile.png" /></li>
                 </ul>
 
                 <div class="space"></div>
@@ -430,6 +660,7 @@
 
             <div class="wrap" style="background: #eee; height: 200px"></div>
 
+            
             <div class="space"></div>
 
             <div class="wrap">
@@ -493,32 +724,32 @@
             </div>
         </div>
         <div class="tdsg-section" id="colours" data-title="Colours">
-        	<div class="wrap">
-        		<h2 class="tdsg-section__heading">Colours</h2>
-        		<ul class="tdsg-palette">
-        			<li>
-        				<div class="tdsg-palette__item bg--white"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--dark"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--light"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--default"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--primary"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--secondary"></div>
-        			</li>
-        			<li>
-        				<div class="tdsg-palette__item bg--error"></div>
-        			</li>
-        		</ul>
-        	</div>
+            <div class="wrap">
+                <h2 class="tdsg-section__heading">Colours</h2>
+                <ul class="tdsg-palette">
+                    <li>
+                        <div class="tdsg-palette__item bg--white"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--dark"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--light"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--default"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--primary"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--secondary"></div>
+                    </li>
+                    <li>
+                        <div class="tdsg-palette__item bg--error"></div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div><!-- /style-guide-body -->
 </div>
