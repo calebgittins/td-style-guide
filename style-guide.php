@@ -481,7 +481,15 @@
                 <div class="space"></div>
 
                 <h3 class="tdsg-section__label">Error Message</h3>
+
                 <div class="validation_error">There was a problem with your submission. Errors have been highlighted below.</div>
+
+                <div class="gform_validation_errors" id="gform_1_validation_container">
+                    <h2 class="gform_submission_error hide_summary">
+                        <span class="gform-icon gform-icon--close"></span>
+                        There was a problem with your submission. Please review the fields below.
+                    </h2>
+                </div>
 
                 <div class="space"></div>
 
