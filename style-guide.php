@@ -7,27 +7,21 @@
                 <h2 class="tdsg-section__heading">Typography</h2>
                     <h3 class="tdsg-section__label">Heading 1 <code>h1</code></h3>
                     <h1>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                     <div class="space"></div>
                     <h3 class="tdsg-section__label">Heading 2 <code>h2</code></h3>
                     <h2>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                     <div class="space"></div>
                     <h3 class="tdsg-section__label">Heading 3 <code>h3</code></h3>
                     <h3>Quisque non <a href="#">bibendum</a> urna. Donec bibendum.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                     <div class="space"></div>
                     <h3 class="tdsg-section__label">Heading 4 <code>h4</code></h3>
                     <h4>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                     <div class="space"></div>
                     <h3 class="tdsg-section__label">Heading 5 <code>h5</code></h3>
                     <h5>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                     <div class="space"></div>
                     <h3 class="tdsg-section__label">Heading 6 <code>h6</code></h3>
                     <h6>Quisque non <a href="#">bibendum</a> urna.<br> Donec bibendum.</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
 
                     <div class="space"></div>
                     
@@ -42,10 +36,40 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec rhoncus enim eu</strong> aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh.</p>
                         <p>Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl. Nullam efficitur, sapien id semper imperdiet, <i>neque quam malesuada arcu</i>, at posuere nunc tortor eget ante.</p>
                     </div>
+                    
+
                     <div class="space"></div>
-                    <h3 class="tdsg-section__label">Misc</h3>
-                    2,500m<sup>2</sup><br>
-                    H<sub>2</sub>0
+
+                    <h3 class="tdsg-section__label">Example of all headings in use</h3>
+
+                    <div class="wysiwyg">
+                        <h1>Quisque non bibendum urna. Donec bibendum.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                        <h2>Quisque non bibendum urna. Donec bibendum.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                        <h3>Quisque non bibendum urna. Donec bibendum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                        <h4>Quisque non bibendum urna. Donec bibendum.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                        <h5>Quisque non bibendum urna. Donec bibendum.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                        <h6>Quisque non bibendum urna. Donec bibendum.</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus enim eu aliquam viverra. Duis et neque magna. Aenean at ornare erat. Nullam ut aliquet nunc, ac congue eros. Nullam eget interdum nibh. Quisque non bibendum urna. Donec bibendum augue ac aliquam mollis. Ut metus velit, lobortis eu hendrerit nec, blandit eu magna. Aliquam at pharetra nisl.</p>
+                    </div>
+
+                    <div class="space"></div>
+                    
+                    <div class="grid">
+                        <div class="grid__item grid__item--fourth">
+                            <h3 class="tdsg-section__label">Superscript</h3>
+                            2,500m<sup>2</sup>        
+                        </div>
+                        <div class="grid__item grid__item--fourth">
+                            <h3 class="tdsg-section__label">Subscript</h3>
+                            H<sub>2</sub>0
+                        </div>
+                    </div>                    
+                    
 
                 <div class="space"></div>
                 <h3 class="tdsg-section__label">Blockquote <code>blockquote</code></h3>
@@ -146,10 +170,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 </div>
 
+                <div class="space"></div>
+
                 <h3 class="tdsg-section__label">Message - Success <code>.message.message--success</code></h3>
                 <div class="message message--success">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 </div>
+
+                <div class="space"></div>
 
                 <h3 class="tdsg-section__label">Message - Error <code>.message.message--error</code></h3>
                 <div class="message message--error">
@@ -228,12 +256,10 @@
         </div>
         <div class="tdsg-section tdsg-section--form gform_wrapper" id="forms" data-title="Forms">
             <div class="wrap">
-                <h2 class="tdsg-section__heading">Forms</h2>
-
+                <h2 class="tdsg-section__heading">Forms</h2>                
                 <h3 class="tdsg-section__label">Text Input with label</h3>
-
                 <div class="grid">
-                    <div class="grid__item grid__item--half">
+                    <div class="grid__item grid__item--half">                        
                         <form>
                             <label for="" class="gfield_label">Field Label</label>
                             <input type="text">
@@ -458,31 +484,20 @@
 
                 <h3 class="tdsg-section__label">File Upload</h3>
 
-                <div id="field_1_8" class="field_sublabel_below field_description_below gfield_visibility_visible hidden_label">
-                    <label class="gfield_label">File</label>
-                    <div class="ginput_container ginput_container_fileupload">
-                        <div id="gform_multifile_upload_1_8" data-settings="{&quot;runtimes&quot;:&quot;html5,flash,html4&quot;,&quot;browse_button&quot;:&quot;gform_browse_button_1_8&quot;,&quot;container&quot;:&quot;gform_multifile_upload_1_8&quot;,&quot;drop_element&quot;:&quot;gform_drag_drop_area_1_8&quot;,&quot;filelist&quot;:&quot;gform_preview_1_8&quot;,&quot;unique_names&quot;:true,&quot;file_data_name&quot;:&quot;file&quot;,&quot;url&quot;:&quot;http:\/\/cityfinance.local\/?gf_page=d3ff8bb67f81eff&quot;,&quot;flash_swf_url&quot;:&quot;http:\/\/cityfinance.local\/wp-includes\/js\/plupload\/plupload.flash.swf&quot;,&quot;silverlight_xap_url&quot;:&quot;http:\/\/cityfinance.local\/wp-includes\/js\/plupload\/plupload.silverlight.xap&quot;,&quot;filters&quot;:{&quot;mime_types&quot;:[{&quot;title&quot;:&quot;Allowed Files&quot;,&quot;extensions&quot;:&quot;*&quot;}],&quot;max_file_size&quot;:&quot;314572800b&quot;},&quot;multipart&quot;:true,&quot;urlstream_upload&quot;:false,&quot;multipart_params&quot;:{&quot;form_id&quot;:1,&quot;field_id&quot;:8},&quot;gf_vars&quot;:{&quot;max_files&quot;:0,&quot;message_id&quot;:&quot;gform_multifile_messages_1_8&quot;,&quot;disallowed_extensions&quot;:[&quot;php&quot;,&quot;asp&quot;,&quot;aspx&quot;,&quot;cmd&quot;,&quot;csh&quot;,&quot;bat&quot;,&quot;html&quot;,&quot;htm&quot;,&quot;hta&quot;,&quot;jar&quot;,&quot;exe&quot;,&quot;com&quot;,&quot;js&quot;,&quot;lnk&quot;,&quot;htaccess&quot;,&quot;phtml&quot;,&quot;ps1&quot;,&quot;ps2&quot;,&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;,&quot;py&quot;,&quot;rb&quot;,&quot;tmp&quot;]}}" class="gform_fileupload_multifile" style="position: relative;">
-                            <div id="gform_drag_drop_area_1_8" class="gform_drop_area" style="position: relative;">
-                                <span class="gform_drop_instructions">Drop files here or </span>
-                                <input id="gform_browse_button_1_8" type="button" value="Select files" class="button gform_button_select_files" aria-describedby="extensions_message_1_8" style="position: relative; z-index: 1;">
-                            </div>
-                            <div id="html5_1eovqno051bidq7g15sr1mmd1feo3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 6px; left: 141px; width: 88px; height: 18px; overflow: hidden; z-index: 0;">
-                                <input id="html5_1eovqno051bidq7g15sr1mmd1feo3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="">
-                            </div>
-                        </div>
-                        <span id="extensions_message_1_8" class="screen-reader-text">Accepted file types: jpg, gif, png, pdf.</span>
-                        <div class="validation_message">
-                            <ul id="gform_multifile_messages_1_8"></ul>
-                        </div>
-                    </div>
-                    <div id="gform_preview_1_8"></div>
-                </div>
+                <form>
+                <div id="field_1_10" class="field_sublabel_below field_description_below gfield_visibility_visible" style=""><label class="gfield_label" for="html5_1f5km76ih1q1j48upjtrgj1fou3">File</label><div class="ginput_container ginput_container_fileupload"><div id="gform_multifile_upload_1_10" data-settings="{&quot;runtimes&quot;:&quot;html5,flash,html4&quot;,&quot;browse_button&quot;:&quot;gform_browse_button_1_10&quot;,&quot;container&quot;:&quot;gform_multifile_upload_1_10&quot;,&quot;drop_element&quot;:&quot;gform_drag_drop_area_1_10&quot;,&quot;filelist&quot;:&quot;gform_preview_1_10&quot;,&quot;unique_names&quot;:true,&quot;file_data_name&quot;:&quot;file&quot;,&quot;url&quot;:&quot;http:\/\/localhost:3000\/?gf_page=2a1b8748a851dac&quot;,&quot;flash_swf_url&quot;:&quot;http:\/\/localhost:3000\/wp-includes\/js\/plupload\/plupload.flash.swf&quot;,&quot;silverlight_xap_url&quot;:&quot;http:\/\/localhost:3000\/wp-includes\/js\/plupload\/plupload.silverlight.xap&quot;,&quot;filters&quot;:{&quot;mime_types&quot;:[{&quot;title&quot;:&quot;Allowed Files&quot;,&quot;extensions&quot;:&quot;*&quot;}],&quot;max_file_size&quot;:&quot;314572800b&quot;},&quot;multipart&quot;:true,&quot;urlstream_upload&quot;:false,&quot;multipart_params&quot;:{&quot;form_id&quot;:1,&quot;field_id&quot;:10},&quot;gf_vars&quot;:{&quot;max_files&quot;:0,&quot;message_id&quot;:&quot;gform_multifile_messages_1_10&quot;,&quot;disallowed_extensions&quot;:[&quot;php&quot;,&quot;asp&quot;,&quot;aspx&quot;,&quot;cmd&quot;,&quot;csh&quot;,&quot;bat&quot;,&quot;html&quot;,&quot;htm&quot;,&quot;hta&quot;,&quot;jar&quot;,&quot;exe&quot;,&quot;com&quot;,&quot;js&quot;,&quot;lnk&quot;,&quot;htaccess&quot;,&quot;phtml&quot;,&quot;ps1&quot;,&quot;ps2&quot;,&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;,&quot;py&quot;,&quot;rb&quot;,&quot;tmp&quot;]}}" class="gform_fileupload_multifile" style="position: relative;">
+                                                        <div id="gform_drag_drop_area_1_10" class="gform_drop_area" style="position: relative;">
+                                                            <span class="gform_drop_instructions">Drop files here or </span>
+                                                            <button id="gform_browse_button_1_10" class="button gform_button_select_files" aria-describedby="gfield_upload_rules_1_10" style="position: relative; z-index: 1;" aria-label="select files, file">Select files</button>
+                                                        </div>
+                                                    <div id="html5_1f5km76ih1q1j48upjtrgj1fou3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 44px; left: 436px; width: 164px; height: 48px; overflow: hidden; z-index: 0;"><input id="html5_1f5km76ih1q1j48upjtrgj1fou3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="" tabindex="-1" aria-hidden="true"></div></div><span class="gform_fileupload_rules" id="gfield_upload_rules_1_10">Max. file size: 300 MB.</span><ul class="validation_message validation_message--hidden-on-empty gfield_validation_message gform-ul-reset" id="gform_multifile_messages_1_10"></ul> <!-- Leave <ul> empty to support CSS :empty selector. --></div><div id="gform_preview_1_10"></div></div>
+                </form>
+
+
 
                 <div class="space"></div>
 
                 <h3 class="tdsg-section__label">Error Message</h3>
-
-                <div class="validation_error">There was a problem with your submission. Errors have been highlighted below.</div>
 
                 <div class="gform_validation_errors" id="gform_1_validation_container">
                     <h2 class="gform_submission_error hide_summary">
@@ -494,7 +509,12 @@
                 <div class="space"></div>
 
                 <h3 class="tdsg-section__label">Confirmation Message</h3>
-                <div class="gform_confirmation_message">Thank you for your submission.</div>
+
+                <div id="gform_confirmation_wrapper_1" class="gform_confirmation_wrapper ">
+                    <div id="gform_confirmation_message_1" class="gform_confirmation_message_1 gform_confirmation_message">
+                        Thanks for contacting us! We will get in touch with you shortly.
+                    </div>
+                </div>                
 
                 <div class="space"></div>
 
@@ -588,13 +608,13 @@
                 
                 <div class="accordion">
                     <div class="accordion__item">
-                        <h4 class="accordion__item__heading js-accordion-toggle" data-target="accordion-01">Accordion heading <i class="fas fa-chevron-down"></i></h4>
+                        <h6 class="accordion__item__heading js-accordion-toggle" data-target="accordion-01">Accordion heading <i class="fas fa-chevron-down"></i></h6>
                         <div class="accordion__item__content" id="accordion-01">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit minima dolorem. Eligendi, velit ea, facere ex veniam, iure quae dolores perspiciatis quam delectus illum sunt maxime. Maxime aspernatur, ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt error dolores ad sit asperiores eveniet ea. Vero omnis voluptates, quos cum consequuntur sapiente cupiditate nesciunt suscipit eveniet. Sequi, tenetur, soluta.</p>
                         </div>
                     </div>
                     <div class="accordion__item">
-                        <h4 class="accordion__item__heading js-accordion-toggle" data-target="accordion-02">Accordion heading <i class="fas fa-chevron-down"></i></h4>
+                        <h6 class="accordion__item__heading js-accordion-toggle" data-target="accordion-02">Accordion heading <i class="fas fa-chevron-down"></i></h6>
                         <div class="accordion__item__content" id="accordion-02">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit minima dolorem. Eligendi, velit ea, facere ex veniam, iure quae dolores perspiciatis quam delectus illum sunt maxime. Maxime aspernatur, ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt error dolores ad sit asperiores eveniet ea. Vero omnis voluptates, quos cum consequuntur sapiente cupiditate nesciunt suscipit eveniet. Sequi, tenetur, soluta.</p>
                         </div>
@@ -737,24 +757,31 @@
                 <ul class="tdsg-palette">
                     <li>
                         <div class="tdsg-palette__item bg--white"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--dark"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--light"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--default"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--primary"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--secondary"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                     <li>
                         <div class="tdsg-palette__item bg--error"></div>
+                        <h6 class="tdsg-palette__item__heading"></h6>
                     </li>
                 </ul>
             </div>

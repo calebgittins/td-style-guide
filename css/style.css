@@ -597,6 +597,11 @@ a.tdsg__button:visited {
 	border-radius: 8px;
 }
 
+.tdsg-palette__item__heading {
+	text-transform: uppercase;
+	margin-top: .5em;
+}
+
 .tdsg-palette .bg--white {
 	border: 1px solid #eee;
 }
